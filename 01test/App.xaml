@@ -1,0 +1,8 @@
+﻿<Application x:Class="_01test.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="02Combox.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

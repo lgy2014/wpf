@@ -1,0 +1,15 @@
+﻿<Window x:Class="_02ControlTemplateBrowser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="控件模板浏览器 Ver 0.9" Height="550" Width="825" Icon="1.ico">
+    <Grid x:Name="grid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="lb1" Grid.Column="0"></ListBox>
+        <GridSplitter Grid.Column="1" Width="5" VerticalAlignment="Stretch" HorizontalAlignment="Center" ShowsPreview="False"></GridSplitter>
+        <TextBox x:Name="txt1" TextWrapping="Wrap" Grid.Column="2" VerticalScrollBarVisibility="Auto"></TextBox>
+    </Grid>
+</Window>

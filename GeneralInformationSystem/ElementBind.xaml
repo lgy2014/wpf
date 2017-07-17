@@ -1,0 +1,21 @@
+﻿<Window x:Class="GeneralInformationSystem.ElementBind"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ElementBind" Height="400" Width="600">
+    <StackPanel>
+        <Slider x:Name="sliderFontSize" Margin="3"
+                Minimum="1" Maximum="40" Value="10"
+                TickFrequency="1" IsSnapToTickEnabled="True" TickPlacement="TopLeft"></Slider>
+        <TextBox x:Name="txtSize"></TextBox>
+        <!--Text="{Binding ElementName=sliderFontSize,Path=Value,Mode=TwoWay}"-->
+        <TextBox x:Name="txtFontText" Text="长风吹万里"></TextBox>
+        <ListBox x:Name="listBoxColor">
+            <ListBoxItem Tag="Blue" Content="Blue"></ListBoxItem>
+            <ListBoxItem Tag="Red" Content="Red"></ListBoxItem>
+            <ListBoxItem Tag="Green" Content="Green"></ListBoxItem>
+            <ListBoxItem Tag="Orange"  Content="White"></ListBoxItem>
+        </ListBox>
+        <TextBlock x:Name="labelSimple" Margin="10" Text="{Binding ElementName=txtFontText,Path=Text}" FontSize="{Binding ElementName=sliderFontSize,Path=Value}"
+                   Foreground="{Binding ElementName=listBoxColor,Path=SelectedItem.Tag}"></TextBlock>
+    </StackPanel>
+</Window>

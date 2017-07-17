@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01test", "01test\01test.csproj", "{165C18EF-D91C-4A48-BFB1-D41A60195D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02ControlTemplateBrowser", "02ControlTemplateBrowser\02ControlTemplateBrowser.csproj", "{125D6FD9-C1D1-40EA-B2FE-3858E64EF882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahaWpfTheme20131", "SahaWpfTheme20131\SahaWpfTheme20131.csproj", "{6061A151-EE51-4480-BD2C-46DC88FA408A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralInformationSystem", "GeneralInformationSystem\GeneralInformationSystem.csproj", "{0131918D-25C2-480F-AF89-7622483FD6BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageLibrary", "ImageLibrary\ImageLibrary.csproj", "{431D6870-2606-4A86-AEF4-93134EC3667D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsSqlServerTool", "MsSqlServerTool\MsSqlServerTool.csproj", "{89D22825-68B2-45D7-9516-E63CC74BF3C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{165C18EF-D91C-4A48-BFB1-D41A60195D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165C18EF-D91C-4A48-BFB1-D41A60195D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165C18EF-D91C-4A48-BFB1-D41A60195D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165C18EF-D91C-4A48-BFB1-D41A60195D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125D6FD9-C1D1-40EA-B2FE-3858E64EF882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125D6FD9-C1D1-40EA-B2FE-3858E64EF882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125D6FD9-C1D1-40EA-B2FE-3858E64EF882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125D6FD9-C1D1-40EA-B2FE-3858E64EF882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6061A151-EE51-4480-BD2C-46DC88FA408A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6061A151-EE51-4480-BD2C-46DC88FA408A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6061A151-EE51-4480-BD2C-46DC88FA408A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6061A151-EE51-4480-BD2C-46DC88FA408A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0131918D-25C2-480F-AF89-7622483FD6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0131918D-25C2-480F-AF89-7622483FD6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0131918D-25C2-480F-AF89-7622483FD6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0131918D-25C2-480F-AF89-7622483FD6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431D6870-2606-4A86-AEF4-93134EC3667D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431D6870-2606-4A86-AEF4-93134EC3667D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431D6870-2606-4A86-AEF4-93134EC3667D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431D6870-2606-4A86-AEF4-93134EC3667D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D22825-68B2-45D7-9516-E63CC74BF3C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D22825-68B2-45D7-9516-E63CC74BF3C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D22825-68B2-45D7-9516-E63CC74BF3C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D22825-68B2-45D7-9516-E63CC74BF3C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

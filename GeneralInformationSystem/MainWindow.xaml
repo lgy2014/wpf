@@ -1,0 +1,12 @@
+﻿<Window x:Class="GeneralInformationSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="主界面" Height="550" Width="725" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <WrapPanel x:Name="wrapPanel">
+            <Button x:Name="btnUri" Margin="10" Content="资源路径测试,以图片举例" Click="btnUri_Click"></Button>
+            <Button x:Name="btnElementBind" Margin="10" Content="元素绑定" Click="btnElementBind_Click"></Button>
+            <Button x:Name="btnFlowDocument" Margin="10" Content="流文档测试" Click="btnFlowDocument_Click"></Button>
+        </WrapPanel>
+    </Grid>
+</Window>
